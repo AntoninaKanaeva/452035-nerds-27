@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Antonina Kanaeva](https://up.htmlacademy.ru/htmlcss/27/user/452035).
-* Наставник: `Алексей Беляев`.
+* Наставник: [Алексей Беляев](https://htmlacademy.ru/profile/id691043).
 
 ---
 
