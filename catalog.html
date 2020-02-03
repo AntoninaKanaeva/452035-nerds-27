@@ -8,7 +8,7 @@
 <header>
     <nav>
         <a href="index.html">
-            <img src="img/index/nerds-logo.svg" width="160" height="65" alt="Логотип дизайн-студии Нёрдс">
+            <img src="img/nerds-logo.svg" width="160" height="65" alt="Логотип дизайн-студии Нёрдс">
         </a>
         <ul>
             <li><a href="studio.html">Студия</a></li>
@@ -28,17 +28,57 @@
     <!--Розовый блок-->
     <section>
         <h2>Фильтры по параметрам</h2>
-        <!--Здесь будет форма-->
+        <!--Здесь будет ползунок стоимости-->
+      <form action="https://echo.htmlacademy.ru" method="post">
+        <h3>Сетка:</h3>
+      <ul>
+        <li>
+          <input type="radio" name="grid" id="filter-adaptive" value="adaptive" checked>
+          <label for="filter-adaptive">Адаптивная</label>
+        </li>
+        <li>
+          <input type="radio" name="grid" id="filter-fixed" value="fixed">
+          <label for="filter-fixed">Фиксированная</label>
+        </li>
+        <li>
+          <input type="radio" name="grid" id="filter-rubber" value="rubber">
+          <label for="filter-rubber">Резиновая</label>
+        </li>
+      </ul>
+        <ul>
+          <li>
+            <input type="checkbox" name="slider" id="filter-slider" checked>
+            <label for="filter-slider">Слайдер</label>
+          </li>
+          <li>
+          <input type="checkbox" name="advantages" id="filter-advantages">
+          <label for="filter-advantages">Блок преимуществ</label>
+          </li>
+          <li>
+            <input type="checkbox" name="news" id="filter-news" checked>
+            <label for="filter-news">Новости</label>
+          </li>
+          <li>
+            <input type="checkbox" name="gallery" id="filter-gallery">
+            <label for="filter-gallery">Галерея</label>
+          </li>
+          <li>
+            <input type="checkbox" name="basket" id="filter-basket">
+            <label for="filter-basket">Корзина</label>
+          </li>
+        </ul>
+      </form>
+      <button type="button">Показать</button>
     </section>
     <section>
         <h2>Список готовых шаблонов</h2>
         <ul>
-            <li><img src="img/catalog/img-sedona-jpg.jpg" width="360" height="576" alt="Шаблон Седона">
-            <li><img src="img/catalog/img-pink-jpg.jpg" width="360" height="576" alt="Шаблон Pink">
-            <li><img src="img/catalog/img-barbershop-jpg.jpg" width="360" height="576" alt="Шаблон Барбершоп">
-            <li><img src="img/catalog/img-mishka-jpg.jpg" width="360" height="576" alt="Шаблон Mishka">
-            <li><img src="img/catalog/img-aplus-jpg.jpg" width="360" height="576" alt="Шаблон A+">
-            <li><img src="img/catalog/img-kvast-jpg.jpg" width="360" height="576" alt="Шаблон Кваст">
+            <li><img src="img/img-sedona-jpg.jpg" width="360" height="576" alt="Шаблон Седона">
+            <li><img src="img/img-pink-jpg.jpg" width="360" height="576" alt="Шаблон Pink">
+            <li><img src="img/img-barbershop-jpg.jpg" width="360" height="576" alt="Шаблон Барбершоп">
+            <li><img src="img/img-mishka-jpg.jpg" width="360" height="576" alt="Шаблон Mishka">
+            <li><img src="img/img-aplus-jpg.jpg" width="360" height="576" alt="Шаблон A+">
+            <li><img src="img/img-kvast-jpg.jpg" width="360" height="576" alt="Шаблон Кваст">
         </ul>
     </section>
         <!--Розовый блок-->
@@ -54,5 +94,23 @@
     <p>Давайте дружить, это выгодно!</p>
 </div>
 </footer>
+<section>
+  <h2>Напишите нам</h2>
+  <form action="https://echo.htmlacademy.ru" method="post">
+    <p>
+      <label for="name">Ваше имя:</label>
+      <input type="text" name="name" id="name" placeholder="Имя Фамилия">
+    </p>p>
+    <p>
+      <label for="email">Ваш e-mail:</label>
+      <input type="text" name="email" id="email" placeholder="email@example.com">
+    </p>
+    <p>
+      <label for="text-comment">Текст письма:</label>
+      <textarea name="text-comment" id="text-comment" rows="6">В свободной форме</textarea>
+    </p>
+  </form>
+  <button type="submit">Отправить</button>
+</section>
 </body>
 </html>
